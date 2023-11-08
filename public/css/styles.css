@@ -237,18 +237,21 @@ footer p {
     .discount {
         width: 50%;
     }
-    footer div {
-        width: 100%;
-        box-sizing: border-box;
-    }
 }
 
 @media (min-width: 769px) {
     main section div.products article {
         width: 22%;
     }
-    footer div {
-        width: 100%;
-        box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .price {
+        font-size: 14px;
     }
+
+    .discount {
+        font-size: 12px;
+    }
+ 
 }
